@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Acerca De</string>
+    <string name="nombre">Erika Stephanie Ramírez</string>
+    <string name="carrera">Ing. Informática</string>
+    <string name="git">ErikaStephanieRamirez</string>
+    <string name="twit">Erika Ramírez</string>
+    <string name="correo">00157516@uca.edu.sv</string>
+    <string name="cel">75203464</string>
+    <string name="powered">Powered by: Erika Ramirez</string>
 </resources>

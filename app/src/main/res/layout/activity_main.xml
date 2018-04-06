@@ -11,12 +11,14 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/Erika"
-        android:layout_width="match_parent"
+        android:layout_width="125dp"
+        android:layout_gravity="center"
         android:layout_height="125dp"
         android:layout_marginTop="10dp"
         android:src="@mipmap/erika"/>
 
     <TextView
+        android:id="@+id/nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="25sp"
@@ -25,6 +27,7 @@
         android:layout_marginTop="10dp"/>
 
     <TextView
+        android:id="@+id/carrera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="25sp"
@@ -53,6 +56,7 @@
                 android:src="@mipmap/github" />
 
             <TextView
+                android:id="@+id/cGitHub"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/git"
@@ -150,6 +154,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:text="Share"
+        android:onClick="OnClickShare"
         android:layout_gravity="center"
         android:layout_weight="1"
         android:background="@color/colorPrimary" />

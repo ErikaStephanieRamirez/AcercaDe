@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             final Intent intent = new Intent(android.content.Intent.ACTION_SEND);
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(file));
-            intent.putExtra(Intent.EXTRA_TEXT, "Datos personales\nNombre: "+getResources().getString(R.string.nombre)+"\nCarrera: "+getResources().getString(R.string.carrera)
+            intent.putExtra(Intent.EXTRA_TEXT, "Datos personales\n\nNombre: "+getResources().getString(R.string.nombre)+"\nCarrera: "+getResources().getString(R.string.carrera)
                     +"\nGitHub: " + getResources().getString(R.string.git)+"\nTwitter: "+getResources().getString(R.string.twit)
                     +"\nCorreo: "+ getResources().getString(R.string.correo)+"\nCelular: "+getResources().getString(R.string.cel));
             intent.setType("*/*");
